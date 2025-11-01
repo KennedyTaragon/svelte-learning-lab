@@ -1,0 +1,122 @@
+# =====================================
+# SVELTE LEARNING LAB - GITIGNORE FILE
+# Covers multiple Svelte & SvelteKit apps
+# =====================================
+
+# --- Node dependencies ---
+node_modules/
+.pnpm-store/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# --- Build outputs ---
+build/
+dist/
+.svelte-kit/
+.vercel/
+.netlify/
+output/
+
+# --- Temporary files ---
+*.log
+*.tmp
+*.swp
+*.swo
+
+# --- IDE & Editor files ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS-generated files ---
+.DS_Store
+Thumbs.db
+
+# --- Environment variables ---
+.env
+.env.*
+!.env.example
+
+# --- Test & Coverage directories ---
+coverage/# =====================================
+# SVELTE LEARNING LAB - GITIGNORE FILE
+# Covers multiple Svelte & SvelteKit apps
+# =====================================
+
+# --- Node dependencies ---
+node_modules/
+.pnpm-store/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# --- Build outputs ---
+build/
+dist/
+.svelte-kit/
+.vercel/
+.netlify/
+output/
+
+# --- Temporary files ---
+*.log
+*.tmp
+*.swp
+*.swo
+
+# --- IDE & Editor files ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS-generated files ---
+.DS_Store
+Thumbs.db
+
+# --- Environment variables ---
+.env
+.env.*
+!.env.example
+
+# --- Test & Coverage directories ---
+coverage/
+*.lcov
+
+# --- Local configuration ---
+*.local
+*.config.js
+*.config.cjs
+*.config.mjs
+
+# --- Misc ---
+*.bak
+*.old
+
+# --- Ignore lockfiles inside subprojects (optional) ---
+**/package-lock.json
+**/pnpm-lock.yaml
+**/yarn.lock
+
+# --- Ignore all node_modules recursively ---
+**/node_modules/
+
+*.lcov
+
+# --- Local configuration ---
+*.local
+*.config.js
+*.config.cjs
+*.config.mjs
+
+# --- Misc ---
+*.bak
+*.old
+
+# --- Ignore lockfiles inside subprojects (optional) ---
+**/package-lock.json
+**/pnpm-lock.yaml
+**/yarn.lock
+
+# --- Ignore all node_modules recursively ---
+**/node_modules/
