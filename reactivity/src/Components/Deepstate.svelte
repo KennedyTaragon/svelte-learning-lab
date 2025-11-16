@@ -1,11 +1,16 @@
 <script>
-	let count = 0;
+	let numbers = [1, 2, 3, 4];
 
-	function increment() {
-		count += 1;
+	function addNumber() {
+		// Create a new array instead of mutating the old one
+		numbers = [...numbers, numbers.length + 1];
 	}
 </script>
 
-<button on:click={increment}>
-	Clicked {count} {count === 1 ? 'time' : 'times'}
+<p>PRESS THE BUTTON TO CHANGE THE COUNTER STATE</p>
+
+<p>{numbers.join(' + ')} = ...</p>
+
+<button on:click={addNumber}>
+	Add a number
 </button>

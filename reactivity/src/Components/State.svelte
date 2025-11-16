@@ -1,14 +1,13 @@
-
 <script>
-	let numbers = $state([1, 2, 3, 4]);
+  let count = 0;
 
-	function addNumber() {
-		numbers.push(numbers.length + 1);
-	}
+  function increment() {
+    count += 1;
+  }
 </script>
 
-<p>{numbers.join(' + ')} = ...</p>
-
-<button onclick={addNumber}>
-	Add a number
+<p>PRESS THE BUTTON TO CHANGE THE COUNTER STATE</p>
+<button on:click={increment}>
+  Clicked {count} {count === 1 ? 'time' : 'times'}
 </button>
+

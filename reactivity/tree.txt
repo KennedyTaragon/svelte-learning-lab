@@ -1,0 +1,15 @@
+.
+├── package.json
+├── package-lock.json
+├── README.md
+├── rollup.config.js
+├── scripts
+│   └── setupTypeScript.js
+└── src
+    ├── App.svelte
+    ├── Components
+    │   ├── Deepstate.svelte
+    │   └── State.svelte
+    └── main.js
+
+4 directories, 9 files
