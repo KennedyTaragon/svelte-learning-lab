@@ -1,0 +1,23 @@
+.
+├── package.json
+├── package-lock.json
+├── README.md
+├── src
+│   ├── app.d.ts
+│   ├── app.html
+│   ├── lib
+│   │   ├── assets
+│   │   │   └── favicon.svg
+│   │   ├── Components
+│   │   │   └── Nested.svelte
+│   │   └── index.ts
+│   └── routes
+│       ├── +layout.svelte
+│       └── +page.svelte
+├── static
+│   └── robots.txt
+├── svelte.config.js
+├── tsconfig.json
+└── vite.config.ts
+
+7 directories, 14 files

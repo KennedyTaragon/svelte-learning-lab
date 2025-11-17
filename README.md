@@ -17,10 +17,10 @@ A structured, hands-on journey through **Svelte** and **SvelteKit**, following t
 - Derived state  
 
 ### 02 - Props
-
+-Declaring props
 
 ### 03 - Logic
-
+-If Blocks
 
 
 ### 04 - SvelteKit Fundamentals
