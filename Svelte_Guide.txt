@@ -3,9 +3,7 @@ SVELTE
 	
 	npx degit sveltejs/template frontend && cd frontend && npm install && npm run dev
 	
-	npm create svelte@latest my-app  -- to use latest svelte
-	
-	npx sv create my-app
+	npx sv create logic    - to use latest svelte
 
 
 2 Navigate into the project folder

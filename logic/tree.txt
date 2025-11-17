@@ -1,0 +1,19 @@
+.
+├── eslint.config.js
+├── package.json
+├── package-lock.json
+├── README.md
+├── src
+│   ├── app.d.ts
+│   ├── app.html
+│   ├── lib
+│   │   └── index.ts
+│   └── routes
+│       └── +page.svelte
+├── static
+│   └── favicon.png
+├── svelte.config.js
+├── tsconfig.json
+└── vite.config.ts
+
+5 directories, 12 files
